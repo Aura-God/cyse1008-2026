@@ -14,6 +14,8 @@ node_modules
 coverage
 
 # production
+.firebase-data
+.vite
 .next
 .firebase
 .swc
@@ -34,6 +36,7 @@ build
 keys
 
 # misc
+#*#
 .DS_Store
 .vercel
 .netlify
