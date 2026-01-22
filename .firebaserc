@@ -1,9 +1,5 @@
 {
   "projects": {
-    "default": "black-river-market-staging",
-    "staging": "black-river-market-staging",
-    "prod": "black-river-market"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "tr0jan-pacman"
+  }
 }
