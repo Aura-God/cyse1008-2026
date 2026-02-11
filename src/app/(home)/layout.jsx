@@ -1,7 +1,7 @@
-import { MainLayout } from 'src/layouts/main';
-
-// ----------------------------------------------------------------------
-
-export default function Layout({ children }) {
-  return <MainLayout>{children}</MainLayout>;
+export default function HomeLayout({ children }) {
+  return (
+    <main style={{ padding: 24 }}>
+      {children}
+    </main>
+  );
 }

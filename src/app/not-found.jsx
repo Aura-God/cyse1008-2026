@@ -1,11 +1,8 @@
-import { CONFIG } from 'src/config-global';
-
-import { NotFoundView } from 'src/sections/error';
-
-// ----------------------------------------------------------------------
-
-export const metadata = { title: `404 page not found! | Error - ${CONFIG.appName}` };
-
-export default function Page() {
-  return <NotFoundView />;
+export default function NotFound() {
+  return (
+    <div style={{ padding: 40, textAlign: 'center' }}>
+      <h1>404</h1>
+      <p>Page not found</p>
+    </div>
+  );
 }

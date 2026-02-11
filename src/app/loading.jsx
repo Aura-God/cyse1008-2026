@@ -1,7 +1,8 @@
-import { SplashScreen } from 'src/components/loading-screen';
-
-// ----------------------------------------------------------------------
-
 export default function Loading() {
-  return <SplashScreen />;
+  return (
+    <div style={{ padding: 40, textAlign: 'center' }}>
+      <h2>Loading…</h2>
+    </div>
+  );
 }
+
