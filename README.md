@@ -129,3 +129,15 @@ Environment setup (staging/prod)
 - You can simulate events quickly with: `stripe trigger checkout.session.completed`.
 
 Share this checklist with students; walking through each item resolves the “order stuck as pending” flow almost every time.
+
+### 6.Assignment 3- (1) Part A
+
+-The file ***src/app/layout.jsx*** is the root layout for the application. It does not map to a specific URL; instead, it wraps all pages in the app. Its role is a layout file, providing shared structure and UI for every route. All page.jsx files render inside this layout using the children prop.
+
+### Part A (2) - src/app/(home)/page.jsx
+
+-The file ***src/app/(home)/page.jsx*** defines the Home page of the application. Because it is inside a route group (home), the folder name does not appear in the URL, and the page is rendered at /. Its role is a page file that controls what content is displayed at the root URL. This page renders the HomeView component and includes page-specific metadata.
+
+### Part A (3) - src/app/dashboard/page.jsx
+
+-The file ***src/app/dashboard/page.jsx*** defines the Dashboard page of the application. The folder name dashboard maps directly to the /dashboard URL. Its role is a page file that controls what content is rendered when users visit /dashboard. This page uses the DashboardContent layout component and Material UI elements to display dashboard navigation, and it includes page-specific metadata.
